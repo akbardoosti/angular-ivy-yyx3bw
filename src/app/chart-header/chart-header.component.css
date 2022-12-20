@@ -1,0 +1,9 @@
+.wpx-ch-head {
+  border-bottom: 1px solid var(--wpx-char-br-color);
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  min-height: var(--min-header-height);
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}

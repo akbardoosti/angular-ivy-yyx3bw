@@ -1,0 +1,9 @@
+<div class="wpx-ch-head wpx-bg wpx-p1">
+  <h3>{{ chartLabel }}</h3>
+
+  <app-wpx-nav
+    *ngIf="!isNavItemListEmpty()"
+    [itemList]="navItemList"
+    class=""
+  ></app-wpx-nav>
+</div>

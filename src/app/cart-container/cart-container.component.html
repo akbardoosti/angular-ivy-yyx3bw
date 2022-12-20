@@ -1,0 +1,10 @@
+<div class="wpx-row wpx-flex wpx-cart-container">
+  <app-cart
+    *ngFor="let site of sites"
+    cart_en="{{ site.en_name }}"
+    cartname="{{ site.fa_name }}"
+    car_img_src="{{ site.img_src }}"
+    posts_count="{{ site.posts_count }}"
+    posts_number="{{ site.posts_number }}"
+  ></app-cart>
+</div>
