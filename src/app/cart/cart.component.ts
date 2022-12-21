@@ -6,6 +6,7 @@ import {
   PLATFORM_ID,
   NgZone,
 } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
 
 @Component({
   selector: 'app-cart',

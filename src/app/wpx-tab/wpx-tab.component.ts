@@ -16,7 +16,6 @@ export class WpxTabComponent implements OnInit {
   /**
    * Execute when angular is loading
    * @author  Akbar Doosti<wpx93.ir@gmail.com>
-   * @return {void}
    */
   ngOnInit() {}
 }
