@@ -27,7 +27,7 @@ export class WpxNavComponent implements OnInit {
    * @return {void}
    */
   ngOnInit() {
-    console.log(this.itemList);
+    // console.log(this.itemList);
   }
 
   /**
@@ -36,7 +36,7 @@ export class WpxNavComponent implements OnInit {
    * @return {void}
    */
   navButtonClick() {
-    console.log(this);
+    // console.log(this);
   }
 
   /**

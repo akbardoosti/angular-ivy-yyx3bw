@@ -11,6 +11,7 @@
     "e2e": "ng e2e"
   },
   "dependencies": {
+    "@amcharts/amcharts4": "^4.10.32",
     "@amcharts/amcharts5": "^5.2.45",
     "@angular/animations": "^15.0.2",
     "@angular/common": "^15.0.2",
