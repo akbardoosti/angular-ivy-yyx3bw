@@ -31,6 +31,10 @@
   /* Eitaa color info */
   --eitaa-color: #ef7b00;
   --eitaa-bg: #ffede2;
+
+  /* Input focus border size */
+  --wpx-br-size-input-focus: 1px;
+  --wpx-br-color-input-focus: rgb(59, 1, 47);
 }
 
 :root {
@@ -68,7 +72,13 @@
   --cart-gap-size: 16px;
   --cart-sm-gap-size: 8px;
 
+  --sm-gap-size: 4px;
+  --md-gap-size: 8px;
+  --lg-gap-size: 12px;
+
   --wpx-md-line-height: 1.5rem;
+
+  --tab-sm-padding-size: 0.5rem;
 }
 
 body {
@@ -164,6 +174,14 @@ body {
 
   --wpx-chart-bg: rgb(255, 245, 189);
   --wpx-char-br-color: rgb(161, 161, 159);
+
+  /*Tab style*/
+  --wpx-tab-border-size: 3px;
+  --wpx-tab-active-border-bottom: var(--wpx-tab-border-size) solid #654;
+  --wpx-tab-bg-color: rgb(255, 253, 253);
+  --wpx-tab-border-bottom: var(--wpx-tab-border-size) solid
+    var(--wpx-tab-bg-color);
+  --wpx-hover-tab-bg-color: rgb(247, 196, 130);
 }
 
 p {
@@ -272,7 +290,8 @@ p {
   margin: 0;
 }
 .wpx-mt0\:25 {
-  margin-top: var(--wpx-p0\25);
+  /* margin-top: var(--wpx-p0\25); */
+  margin-top: 0;
 }
 
 /* X-Small devices (portrait phones, less than 576px) */
