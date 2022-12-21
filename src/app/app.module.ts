@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 
-import { DashboardComponent } from './dashboard/dashboard.component';
+import { DashboardComponent } from './dashboard1/dashboard.component';
 import { CartContainerComponent } from './cart-container/cart-container.component';
 import { CartComponent } from './cart/cart.component';
 import { ChartComponent } from './chart/chart.component';
@@ -15,6 +15,8 @@ import { WpxInputComponent } from './wpx-input/wpx-input.component';
 import { ChartHeaderComponent } from './chart-header/chart-header.component';
 import { ChartBodyComponent } from './chart-body/chart-body.component';
 import { ChartFooterComponent } from './chart-footer/chart-footer.component';
+import { WpxTabComponent } from './wpx-tab/wpx-tab.component';
+import { WpxModalComponent } from './wpx-modal/wpx-modal.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -31,6 +33,8 @@ import { ChartFooterComponent } from './chart-footer/chart-footer.component';
     ChartHeaderComponent,
     ChartBodyComponent,
     ChartFooterComponent,
+    WpxTabComponent,
+    WpxModalComponent,
   ],
   bootstrap: [AppComponent],
 })

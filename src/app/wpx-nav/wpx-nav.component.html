@@ -10,8 +10,13 @@
     <ul class="wpx-m0" no-style hidden>
       <li *ngFor="let item of itemList">
         <a href="#" (click)="navButtonClick()">
-          <img width="24" height="24" src="{{ item['img_src'] }}" alt="
-          {{ item['fa_name'] }}" />
+          <img
+            width="24"
+            height="24"
+            [src]="item['img_src']"
+            [alt]="item['fa_name']"
+            id="image"
+          />
         </a>
       </li>
     </ul>

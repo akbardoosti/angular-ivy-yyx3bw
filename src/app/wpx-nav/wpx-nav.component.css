@@ -41,23 +41,23 @@ ul[no-style] {
   animation-fill-mode: forwards;
 }
 .wpx-nav-btn:hover ~ .wpx-drp-nav ul li:nth-child(4) {
-  animation: swip-left 0.4s;
+  animation: swip-left 0.5s;
   animation-fill-mode: forwards;
 }
 .wpx-nav-btn:hover ~ .wpx-drp-nav ul li:nth-child(5) {
-  animation: swip-left 0.4s;
+  animation: swip-left 0.6s;
   animation-fill-mode: forwards;
 }
 .wpx-nav-btn:hover ~ .wpx-drp-nav ul li:nth-child(6) {
-  animation: swip-left 0.4s;
+  animation: swip-left 0.7s;
   animation-fill-mode: forwards;
 }
 .wpx-nav-btn:hover ~ .wpx-drp-nav ul li:nth-child(7) {
-  animation: swip-left 0.4s;
+  animation: swip-left 0.8s;
   animation-fill-mode: forwards;
 }
 .wpx-nav-btn:hover ~ .wpx-drp-nav ul li:nth-child(8) {
-  animation: swip-left 0.4s;
+  animation: swip-left 0.9s;
   animation-fill-mode: forwards;
 }
 @keyframes swip-left {

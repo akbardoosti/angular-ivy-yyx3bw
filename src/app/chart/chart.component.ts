@@ -11,7 +11,7 @@ import { ChartFooterComponent } from './../chart-footer/chart-footer.component';
 export class ChartComponent implements OnInit {
   @Input() chartLabel: any;
   @Input() siteList: Array<number> = [1, 2, 3];
-  @Input() isHeaderTab: any;
+  @Input() isHeaderTab: boolean = true;
   @Input() headerOptions: Array<object>;
 
   constructor() {}

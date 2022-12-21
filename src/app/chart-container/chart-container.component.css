@@ -2,14 +2,6 @@
 /* No media query for `xs` since this is the default in Bootstrap */
 
 .wpx-chart-container {
-  /* background-color: var(--wpx-chart-bg);
-  border-radius: var(--lg-br-size);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  position: relative;
-  min-height: 12rem; */
   flex-direction: column;
 }
 .wpx-chart-container > * {
