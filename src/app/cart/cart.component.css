@@ -1,11 +1,8 @@
 .wpx-cart {
-  /* width: calc(var(--cart-lg-width) - var(--cart-gap-size)); */
   width: 100%;
   position: relative;
   border-radius: var(--lg-br-size);
   min-height: 200px;
-  /* display: grid;
-  grid-template-rows: max-content 1fr; */
   display: flex;
   flex-direction: column;
   flex: 100%;
