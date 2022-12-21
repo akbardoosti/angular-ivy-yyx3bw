@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 
-import { DashboardComponent } from './dashboard1/dashboard.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 import { CartContainerComponent } from './cart-container/cart-container.component';
 import { CartComponent } from './cart/cart.component';
 import { ChartComponent } from './chart/chart.component';

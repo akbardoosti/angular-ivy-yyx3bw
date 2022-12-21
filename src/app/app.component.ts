@@ -1,6 +1,6 @@
 import { Component, VERSION } from '@angular/core';
 
-import { DashboardComponent } from './dashboard1/dashboard.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 import { WpxTabComponent } from './wpx-tab/wpx-tab.component';
 import { WpxModalComponent } from './wpx-modal/wpx-modal.component';
 
