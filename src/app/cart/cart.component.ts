@@ -60,6 +60,8 @@ export class CartComponent implements OnInit {
    */
   @Input() cartImgSrc: string;
 
+  private root!: am5.Root;
+
   /**
    * Initialize the class when an instance of the class is created
    * @contstructor
@@ -75,4 +77,16 @@ export class CartComponent implements OnInit {
    * @author  Akbar Doosti<wpx93.ir@gmail.com>
    */
   ngOnInit() {}
+
+  /**
+   * Run the function only in the browser
+   * @author  Akbar Doosti<wpx93.ir@gmail.com>
+   */
+  browserOnly(f: () => void) {
+    if (isPlatformBrowser(this.platformId)) {
+      this.zone.runOutsideAngular(() => {
+        f();
+      });
+    }
+  }
 }
