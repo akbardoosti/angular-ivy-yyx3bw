@@ -22,7 +22,7 @@ textarea {
 .wpx-form-control {
   display: block;
   width: 100%;
-  height: calc(2.95rem + 2px);
+  /* height: calc(2.95rem + 2px); */
   padding: 0.25rem 1.15rem;
   font-size: 1rem;
   line-height: 1.25;
@@ -33,9 +33,10 @@ textarea {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   border-radius: 0.25rem;
 }
+
 .wpx-form-control.focus,
 .wpx-form-control:focus {
-  border-color: #716aca;
+  border-color: var(--wpx-br-color-input-focus);
   color: #575962;
   box-shadow: none;
 }
