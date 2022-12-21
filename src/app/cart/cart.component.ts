@@ -1,4 +1,11 @@
-import { Component, OnInit, Input } from '@angular/core';
+import {
+  Component,
+  OnInit,
+  Input,
+  Inject,
+  PLATFORM_ID,
+  NgZone,
+} from '@angular/core';
 
 @Component({
   selector: 'app-cart',
@@ -52,7 +59,10 @@ export class CartComponent implements OnInit {
    * @contstructor
    * @author  Akbar Doosti<wpx93.ir@gmail.com>
    */
-  constructor() {}
+  constructor(
+    @Inject(PLATFORM_ID) private platformId: Object,
+    private zone: NgZone
+  ) {}
 
   /**
    * Execute when angular is loading
