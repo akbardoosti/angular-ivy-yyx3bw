@@ -1,4 +1,4 @@
-<div [class]="'wpx-cart wpx-' + cart_en">
+<div [class]="'wpx-cart wpx-' + cartEn">
   <div class="wpx-cart-header">
     <a class="wpx-detail">
       <i class="la la-info"></i>
@@ -10,22 +10,22 @@
         style="padding-top: 16px; padding-bottom: 16px;"
       >
         <img
-          [src]="car_img_src"
-          [alt]="cartname"
+          [src]="cartImgSrc"
+          [alt]="cartName"
           style="width: 30px; margin-left: 8px;"
-        /><span class="sizechange">{{ cartname }}</span>
+        /><span class="sizechange">{{ cartName }}</span>
       </div>
     </div>
   </div>
   <div class="wpx-cart-body">
     <div class="wpx-cart-posts">
-      تعداد پست ها: <span>{{ posts_count }}</span>
+      تعداد پست ها: <span>{{ postsCount }}</span>
     </div>
     <div class="wpx-cart-chart"></div>
     <div class="wox-cart-footer">
       <div>
-        <span class="label">تعداد کل آگهی های {{ cartname }} در سامانه:</span
-        ><span>{{ posts_number }}</span>
+        <span class="label">تعداد کل آگهی های {{ cartName }} در سامانه:</span
+        ><span>{{ advertisementNumber }}</span>
       </div>
     </div>
   </div>

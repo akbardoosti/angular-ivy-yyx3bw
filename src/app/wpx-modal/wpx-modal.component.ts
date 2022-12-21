@@ -17,10 +17,19 @@ import { v4 as uuidv4 } from 'uuid';
  */
 export class WpxModalComponent implements OnInit {
   MODAL_ID: any = uuidv4();
-  CLOSE_SVG_ICON: string =
-    '<?xml version="1.0" encoding="iso-8859-1"?><!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><g><g><polygon points="512,59.076 452.922,0 256,196.922 59.076,0 0,59.076 196.922,256 0,452.922 59.076,512 256,315.076 452.922,512 512,452.922 315.076,256 "/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>';
+ 
   constructor() {}
+/**
+   * Initialize the class when an instance of the class is created
+   * @contstructor
+   * @author  Akbar Doosti<wpx93.ir@gmail.com>
+   */
 
+ /**
+  * Execute when angular is loading
+  * @author  Akbar Doosti<wpx93.ir@gmail.com>
+  * @return {void}
+  */
   ngOnInit() {}
 
   closeModal() {

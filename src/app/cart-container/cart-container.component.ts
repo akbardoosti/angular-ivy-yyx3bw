@@ -6,6 +6,11 @@ import { CartComponent } from './../cart/cart.component';
   templateUrl: './cart-container.component.html',
   styleUrls: ['./cart-container.component.css'],
 })
+/**
+ * Cart component in dashboard to show unique statistics
+ * @author Akbar Doosti<wpx93.ir@gmail.com>
+ * @class CartContainerComponent
+ */
 export class CartContainerComponent implements OnInit {
   @Input() sites: any[] = [
     {
@@ -39,6 +44,16 @@ export class CartContainerComponent implements OnInit {
   ];
 
   constructor() {}
+  /**
+   * Initialize the class when an instance of the class is created
+   * @contstructor
+   * @author  Akbar Doosti<wpx93.ir@gmail.com>
+   */
 
+  /**
+   * Execute when angular is loading
+   * @author  Akbar Doosti<wpx93.ir@gmail.com>
+   * @return {void}
+   */
   ngOnInit() {}
 }

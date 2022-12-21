@@ -22,7 +22,17 @@ export class ChartContainerComponent implements OnInit {
       label: 'برترین هشتگ ها',
     },
   ];
+/**
+   * Initialize the class when an instance of the class is created
+   * @contstructor
+   * @author  Akbar Doosti<wpx93.ir@gmail.com>
+   */
 
+ /**
+  * Execute when angular is loading
+  * @author  Akbar Doosti<wpx93.ir@gmail.com>
+  * @return {void}
+  */
   constructor() {}
 
   ngOnInit() {}
