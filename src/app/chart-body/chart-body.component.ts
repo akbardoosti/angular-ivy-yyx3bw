@@ -5,18 +5,22 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './chart-body.component.html',
   styleUrls: ['./chart-body.component.css'],
 })
-export class ChartBodyComponent implements OnInit {
-  constructor() {}
 /**
+ * Body of ChartComponent.
+ * @author Akbar Doosti<wpx93.ir@gmail.com>
+ * @class ChartBodyComponent
+ */
+export class ChartBodyComponent implements OnInit {
+  /**
    * Initialize the class when an instance of the class is created
    * @contstructor
    * @author  Akbar Doosti<wpx93.ir@gmail.com>
    */
+  constructor() {}
 
- /**
-  * Execute when angular is loading
-  * @author  Akbar Doosti<wpx93.ir@gmail.com>
-  * @return {void}
-  */
+  /**
+   * Execute when angular is loading
+   * @author  Akbar Doosti<wpx93.ir@gmail.com>
+   */
   ngOnInit() {}
 }

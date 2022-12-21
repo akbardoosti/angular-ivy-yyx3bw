@@ -12,7 +12,13 @@ import { CartComponent } from './../cart/cart.component';
  * @class CartContainerComponent
  */
 export class CartContainerComponent implements OnInit {
-  @Input() sites: any[] = [
+  /**
+   * Store cart list to show statistics on top of the Dashboard
+   * @type {Array.<any>}
+   * @author  Akbar Doosti<wpx93.ir@gmail.com>
+   * @public
+   */
+  @Input() cartList: any[] = [
     {
       en_name: 'divar',
       fa_name: 'دیوار',
@@ -42,18 +48,16 @@ export class CartContainerComponent implements OnInit {
       posts_number: 1945645646545646578,
     },
   ];
-
-  constructor() {}
   /**
    * Initialize the class when an instance of the class is created
    * @contstructor
    * @author  Akbar Doosti<wpx93.ir@gmail.com>
    */
+  constructor() {}
 
   /**
    * Execute when angular is loading
    * @author  Akbar Doosti<wpx93.ir@gmail.com>
-   * @return {void}
    */
   ngOnInit() {}
 }

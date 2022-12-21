@@ -8,23 +8,48 @@ import { ChartFooterComponent } from './../chart-footer/chart-footer.component';
   templateUrl: './chart.component.html',
   styleUrls: ['./chart.component.css'],
 })
-export class ChartComponent implements OnInit {
-  @Input() chartLabel: any;
-  @Input() siteList: Array<number> = [1, 2, 3];
-  @Input() isHeaderTab: boolean = true;
-  @Input() headerOptions: Array<object>;
-
-  constructor() {}
 /**
+ * Chart component in dashboard to show comparison statistics
+ * between multiple items.
+ * This component integrates several component( which include ChartHeader
+ * and ChartBody and ChartFooter Components ) in one component
+ * @author Akbar Doosti<wpx93.ir@gmail.com>
+ * @class ChartComponent
+ */
+export class ChartComponent implements OnInit {
+  /**
+   * Store cart label in any language to show the user
+   * @type {any}
+   * @author  Akbar Doosti<wpx93.ir@gmail.com>
+   * @public
+   */
+  @Input() chartLabel: any;
+
+  /**
+   * It shows whether the header is tabbed or normal text
+   * @type {boolean}
+   * @author  Akbar Doosti<wpx93.ir@gmail.com>
+   * @public
+   */
+  @Input() isHeaderTab: boolean = true;
+  /**
+   * It takes the optional fields from the parent component and applies
+   * them to the HTML part.
+   * @type {Array.<object>}
+   * @author  Akbar Doosti<wpx93.ir@gmail.com>
+   * @public
+   */
+  @Input() headerOptions: Array<object>;
+  /**
    * Initialize the class when an instance of the class is created
    * @contstructor
    * @author  Akbar Doosti<wpx93.ir@gmail.com>
    */
+  constructor() {}
 
- /**
-  * Execute when angular is loading
-  * @author  Akbar Doosti<wpx93.ir@gmail.com>
-  * @return {void}
-  */
+  /**
+   * Execute when angular is loading
+   * @author  Akbar Doosti<wpx93.ir@gmail.com>
+   */
   ngOnInit() {}
 }

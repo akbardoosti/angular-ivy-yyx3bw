@@ -6,8 +6,18 @@ import { ChartComponent } from './../chart/chart.component';
   templateUrl: './chart-container.component.html',
   styleUrls: ['./chart-container.component.css'],
 })
+/**
+ * Container of serveral ChartComponents in one row.
+ * @author Akbar Doosti<wpx93.ir@gmail.com>
+ * @class ChartContainerComponent
+ */
 export class ChartContainerComponent implements OnInit {
-  @Input() options: any = { chart_colsize: '8' };
+  /**
+   * Store chart list to show statistics in the Dashboard
+   * @type {Array.<any>}
+   * @author  Akbar Doosti<wpx93.ir@gmail.com>
+   * @public
+   */
   @Input() chartList: any = [
     {
       options: {
@@ -22,18 +32,16 @@ export class ChartContainerComponent implements OnInit {
       label: 'برترین هشتگ ها',
     },
   ];
-/**
+
+  /**
    * Initialize the class when an instance of the class is created
    * @contstructor
    * @author  Akbar Doosti<wpx93.ir@gmail.com>
    */
-
- /**
-  * Execute when angular is loading
-  * @author  Akbar Doosti<wpx93.ir@gmail.com>
-  * @return {void}
-  */
   constructor() {}
-
+  /**
+   * Execute when angular is loading
+   * @author  Akbar Doosti<wpx93.ir@gmail.com>
+   */
   ngOnInit() {}
 }
