@@ -9,8 +9,9 @@ import { ChartFooterComponent } from './../chart-footer/chart-footer.component';
   styleUrls: ['./chart.component.css'],
 })
 /**
- * Chart component in dashboard to show comparison statistics
+ * Chart component shows comparison statistics in dashboard
  * between multiple items.
+ *
  * This component integrates several component( which include ChartHeader
  * and ChartBody and ChartFooter Components ) in one component
  * @author Akbar Doosti<wpx93.ir@gmail.com>

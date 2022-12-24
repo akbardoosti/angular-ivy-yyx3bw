@@ -2,16 +2,16 @@ import { Component, OnInit, Input } from '@angular/core';
 import { ChartComponent } from './../chart/chart.component';
 
 @Component({
-  selector: 'app-chart-container',
-  templateUrl: './chart-container.component.html',
-  styleUrls: ['./chart-container.component.css'],
+  selector: 'app-chart-row',
+  templateUrl: './chart-row.component.html',
+  styleUrls: ['./chart-row.component.css'],
 })
 /**
  * Container of serveral ChartComponents in one row.
  * @author Akbar Doosti<wpx93.ir@gmail.com>
  * @class ChartContainerComponent
  */
-export class ChartContainerComponent implements OnInit {
+export class ChartRowComponent implements OnInit {
   /**
    * Store chart list to show statistics in the Dashboard
    * @type {Array.<any>}

@@ -8,7 +8,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { CartContainerComponent } from './cart-container/cart-container.component';
 import { CartComponent } from './cart/cart.component';
 import { ChartComponent } from './chart/chart.component';
-import { ChartContainerComponent } from './chart-container/chart-container.component';
+import { ChartRowComponent } from './chart-row/chart-row.component';
 import { WpxFormComponent } from './wpx-form/wpx-form.component';
 import { WpxNavComponent } from './wpx-nav/wpx-nav.component';
 import { WpxInputComponent } from './wpx-input/wpx-input.component';
@@ -26,7 +26,7 @@ import { WpxModalComponent } from './wpx-modal/wpx-modal.component';
     CartContainerComponent,
     CartComponent,
     ChartComponent,
-    ChartContainerComponent,
+    ChartRowComponent,
     WpxFormComponent,
     WpxNavComponent,
     WpxInputComponent,
