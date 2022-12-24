@@ -4,12 +4,12 @@ import { ChartBodyComponent } from './../chart-body/chart-body.component';
 import { ChartFooterComponent } from './../chart-footer/chart-footer.component';
 
 @Component({
-  selector: 'app-chart',
-  templateUrl: './chart.component.html',
-  styleUrls: ['./chart.component.css'],
+  selector: 'app-chart-container',
+  templateUrl: './chart-container.component.html',
+  styleUrls: ['./chart-container.component.css'],
 })
 /**
- * Chart component shows comparison statistics in dashboard
+ * ChartContianerComponent shows comparison statistics in dashboard
  * between multiple items.
  *
  * This component integrates several component( which include ChartHeader
@@ -17,7 +17,7 @@ import { ChartFooterComponent } from './../chart-footer/chart-footer.component';
  * @author Akbar Doosti<wpx93.ir@gmail.com>
  * @class ChartComponent
  */
-export class ChartComponent implements OnInit {
+export class ChartContainerComponent implements OnInit {
   /**
    * Store cart label in any language to show the user
    * @type {any}

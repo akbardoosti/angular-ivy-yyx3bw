@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { ChartComponent } from './../chart/chart.component';
+import { ChartContainerComponent } from './../chart-container/chart-container.component';
 
 @Component({
   selector: 'app-chart-row',

@@ -3,6 +3,6 @@
     *ngFor="let chart of chartList"
     [class]="'wpx-c' + chart.options.col_size"
   >
-    <app-chart [chartLabel]="chart.label"></app-chart>
+    <app-chart-container [chartLabel]="chart.label"></app-chart-container>
   </div>
 </div>
