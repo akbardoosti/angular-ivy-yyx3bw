@@ -1,3 +1,3 @@
-# angular-ivy-yyx3bw
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-ivy-zp6auq)
+#Create your own Dashboard
+##Author: **Akbar Doost** ([Link][author_link])
+### Features
